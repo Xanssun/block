@@ -21,7 +21,7 @@ def decode_transactions(data_of_transactions):
 
 # The main function of the program
 def main():
-    block_number = 11260638
+    block_number = 11260637
     data_of_transactions = block_data(block_number)
 
     if not data_of_transactions:
